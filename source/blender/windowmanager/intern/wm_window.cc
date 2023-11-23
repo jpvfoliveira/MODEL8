@@ -519,7 +519,7 @@ void wm_window_title(wmWindowManager *wm, wmWindow *win)
     str += "]";
   }
 
-  str += " - Blender ";
+  str += " - MODEL8 ";
   str += BKE_blender_version_string_compact();
 
   GHOST_SetTitle(handle, str.c_str());
